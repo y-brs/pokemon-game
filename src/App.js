@@ -1,7 +1,6 @@
 import {useLocation, Route, Switch, Redirect} from 'react-router-dom';
 import Firebase from './service/firebase';
 import {FireBaseContext} from './context/firebaseContext';
-
 import cn from 'classnames';
 
 import HomePage from './routes/Home';
